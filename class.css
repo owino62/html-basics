@@ -1,0 +1,47 @@
+/* 
+    body {
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table {
+        width: 40%;
+        border-radius: 10px;
+        border-collapse: collapse; /* Add this line */
+    }
+
+    th, td {
+        color: black;
+        text-align: center;
+        border: 1px solid black; /* Ensure border is set */
+    }
+
+    th {
+        font-size: 15px;
+        letter-spacing: 1px;
+        border-radius: 0px;
+        background-color: cyan;
+        color: white;
+    }
+
+    tr:first-child {
+        background-color: white;
+        color: black;
+    }
+
+    tr:nth-child(2) {
+        background-color: gainsboro;
+        color: cyan;
+    }
+
+    tr:nth-child(3) {
+        background-color: white;
+        color: black;
+    }
+
+    tr:hover {
+        background-color: darkcyan;
+        color: darkcyan; /* Change text color on hover */
+    }
